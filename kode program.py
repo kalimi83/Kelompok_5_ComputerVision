@@ -1,5 +1,6 @@
 #Analisis Klasifikasi Gambar Menggunakan Convolutional Neural Network (CNN) pada Dataset Intel Image Classification
 #Kelompok 5 (Ary Setyoko, Kalimi, Purnama Nugroho, Muhamad Nur Fuat
+#Dataset : https://www.kaggle.com/datasets/puneet6060/intel-image-classification
 
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
@@ -162,3 +163,4 @@ with open('class_indices.json', 'w') as f:
     json.dump(class_indices, f)
 
 print("Class indices berhasil disimpan.")
+
